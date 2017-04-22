@@ -1,4 +1,0 @@
-sceneSetups:
-- path: Assets/_Scene/SimplePoly City - Low Poly Assets_Demo Scene.unity
-  isLoaded: 1
-  isActive: 1
