@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class car4 : MonoBehaviour {
 
-	float speed=0.2f;
+	float speed=0.1f;
 	double aroundDis=2;
 
 	//	Vector3[] v=initpage.Vector;
@@ -43,7 +43,7 @@ public class car4 : MonoBehaviour {
 	void turnAround(){
 		//left
 		//right
-		transform.Rotate(Vector3.up * (9f));
+		transform.Rotate(Vector3.up * (4.5f));
 	}
 
 
