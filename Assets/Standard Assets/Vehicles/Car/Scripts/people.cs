@@ -4,9 +4,7 @@ using UnityEngine;
 
 namespace UnityStandardAssets.Vehicles.Car
 {
-	public class people1 : MonoBehaviour {
-
-		public bool isOccupied = false;
+	public class people : MonoBehaviour {
 
 		// Use this for initialization
 		void Start () {
@@ -18,9 +16,9 @@ namespace UnityStandardAssets.Vehicles.Car
 
 		}
 		void OnTriggerEnter(Collider collision){
-			if (!isOccupied) {
+			if (!Money.isOccupied) {
 				Destroy (this.gameObject);
-				isOccupied = true;
+				Money.isOccupied = true;
 			}
 		}
 	}
